@@ -16,7 +16,7 @@ body {
 }
 
 form {
-    width: 85%;
+    width: 75%;
     height: 85%;
 }
 
@@ -34,14 +34,6 @@ form {
     align-items: center;
     transition: all;
 }
-
-
-/* @keyframes border-animation{
-    from{
-         transform:rotate(0deg);
-    }
-    to{ transform: rotate(360deg)}
-} */
 
 
 .sign-in {
@@ -189,7 +181,6 @@ form {
 .submit-log-in {
 
     margin: 30px;
-    /* background: rgba(128, 128, 128, 0.205); */
     padding: 15px 30px 15px 30px;
     color: white;
     font-size: 1.2rem;
@@ -222,79 +213,91 @@ p {
     color: aqua;
 }
 
-@media(min-width:300px) and (max-width: 480px)
-{
-   
+@media(min-width:300px) and (max-width: 480px) {
+    form {
+        width: 95%;
+    }
+
+    .form {
+        padding: 1rem;
+    
+    }
+
     .log-in,
-    .sign-in{
-        font-size: 3.5vh;
+    .sign-in {
+        font-size: 6vh;
+        padding: 2rem 0rem 2rem 0rem;
     }
-        
-.username,
-.email,
-.Phone-no,
-.DOB,
-.Age,
-.gender,
-.Hobby,
-.education,
-.pass,
-.c-pass,
-.profile
-    {
-        font-size: 2vh;
+
+    .username,
+    .email,
+    .Phone-no,
+    .DOB,
+    .Age,
+    .gender,
+    .Hobby,
+    .education,
+    .pass,
+    .c-pass,
+    .profile {
+        font-size: 3.3vh;
     }
-    
-.name,
-.mail,
-.P-number,
-.birth,
-.age,
-.radio,
-.checkbox,
-.option,
-.password,
-.c-password,
-.photo
-    
-    {
-    font-size: 1.9vh;
-    width: 30vh ;
-    
+
+    .name,
+    .mail,
+    .P-number,
+    .birth,
+    .age,
+    .radio,
+    .checkbox,
+    .option,
+    .password,
+    .c-password,
+    .photo {
+        font-size: 3vh;
+        width: 30vh;
+
     }
-    hr{
+
+    hr {
         width: 20vh;
     }
-    .para{
-        font-size:2.5vh;
-    }
-    .submit-log-in{
-        font-size: 3vh;
-        color:red;
-        width:auto;
-         padding: 1.9vh 3vh 1.9vh 3vh; 
-         padding: auto;
-    } 
 
-    .code{
-        width: 6vh;
-         padding: 1vh 0px 1vh 0px; 
+    .para {
+        font-size: 2.5vh;
     }
-    .P-number{
+
+    .submit-log-in {
+        font-size: 3vh;
+        width: auto;
+        padding: 1.9vh 3vh 1.9vh 3vh;
+        padding: auto;
+    }
+
+    .code {
+        width: 6vh;
+        padding: 1vh 0px 1vh 0px;
+    }
+
+    .P-number {
         width: 22vh;
     }
-    .checkbox{
-        display:flex;
+
+    .checkbox {
+        display: flex;
         flex-direction: column;
+    }
+
+    .submit-log-in {
+        width: 11rem;
+        padding: 2vh 6vh 2vh 6vh;
     }
 }
 
-@media(min-width:481px) and (max-width: 600px)
-{
-.checkbox
-{
-    width:30vh;
-    display: flex;
-    flex-direction: column;
-}
+@media(min-width:481px) and (max-width: 600px) {
+    .checkbox {
+        width: 30vh;
+        display: flex;
+        flex-direction: column;
+    }
 }
