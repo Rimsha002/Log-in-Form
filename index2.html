@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-In</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <form>
+
+        <div class="form" method="autocomplete" >
+            <div class="h2"><a href="index2.html" class="sign-in"> Sign-In</a></div>
+
+
+            <div class="username">
+                First Name*
+                <input type="text" class="name" placeholder="First name" required autocomplete="current-password">
+            </div>
+
+            <div class="username">
+                Last Name*
+                <input type="text" class="name" placeholder="Last name" required>
+            </div>
+
+            <div class="email">
+                Email*
+                <input type="email" class="mail" placeholder="example@---.com" required>
+            </div>
+
+            <div class="Phone-no">
+                Phone No:*
+
+                <div class="c-number">
+                    <select class="code">
+                        <option value="+91">+91</option>
+                        <option value="+92">+92</option>
+                        <option value="+93">+93</option>
+                        <option value="61">+61</option>
+                        <option value="+1">+1</option>
+                        <option value="+86">+86</option>
+                    </select>
+                    <input type="number" class="P-number" placeholder="Enter Valid Phone Number" required>
+                </div>
+
+            </div>
+
+            <div class="DOB">
+                DOB
+                <input type="date" class="birth" required>
+            </div>
+
+            <div class="Age">
+                Your Age*
+                <input type="number" class="age" placeholder="Your Age" min="18" max="35" required>
+            </div>
+
+            <div class="gender">
+                Gender
+
+                <div class="radio">
+                    <input type="radio" class="sub-gender" value="male" name="Male" required>Male
+
+                    <input type="radio" class="sub-gender" value="female" name="Male" required>Female
+
+                    <input type="radio" class="sub-gender" value="female" name="other" required>Other
+                </div>
+
+            </div>
+
+            <div class="Hobby">
+                Your Hobbies
+                <div class="checkbox">
+                    <input type="checkbox" class="hobby" value="hobby1"> Readind or Arts
+
+                    <input type="checkbox" class="hobby" value="hobby2"> Exercise or Games
+
+                    <input type="checkbox" class="hobby" value="hobby3"> Online Games
+                </div>
+            </div>
+
+            <div class="education">
+                Recent Education
+                <select class="option">
+                    <option>Select at least one</option>
+                    <option>Marticulation or O-Level</option>
+                    <option>Intermediate or A-Level</option>
+                    <option>Undergraduate</option>
+                    <option>Graduate</option>
+                    <option>PHD</option>
+                </select>
+            </div>
+
+            <div class="pass">
+                Password
+                <input type="password" class="password" placeholder="Password" required>
+            </div>
+
+            <div class="c-pass">
+                Confirm Password
+                <input type="password" class="c-password" placeholder="Confirm Password" required>
+            </div>
+
+            <div class="profile">
+
+                Profile Photo
+                <input type="file" value="secret-file" accept=".jpg, .jpeg, .png" class="photo" required>
+            </div>
+
+            <div class="submit"><button class="submit-log-in">Sign-In</button></div>
+
+            <hr>
+
+            <p class="para">Already Sign-In, Log-in here</p>
+            <a href="index.html" class="sign-in">Log-in</a>
+        </div>
+
+    </form>
+</body>
+
+</html>

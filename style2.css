@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+form {
+    width: 85%;
+    height: 85%;
+}
+
+.form {
+    height: 85%;
+    margin: 20px;
+    padding: 2rem;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    border: 3px solid rgb(1, 225, 255);
+    box-shadow: 0 0 100px aqua;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all;
+}
+
+
+/* @keyframes border-animation{
+    from{
+         transform:rotate(0deg);
+    }
+    to{ transform: rotate(360deg)}
+} */
+
+
+.sign-in {
+    font-size: 2rem;
+    text-decoration: none;
+    text-shadow: 0px 0px 2px;
+    color: aqua;
+}
+
+.sign-in:hover {
+    text-decoration: underline
+}
+
+.username,
+.email,
+.Phone-no,
+.DOB,
+.Age,
+.gender,
+.Hobby,
+.education,
+.pass,
+.c-pass,
+.profile {
+
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    color: aqua;
+    font-size: 1.2rem;
+}
+
+.username:hover,
+.email:hover,
+.Phone-no:hover,
+.DOB:hover,
+.Age:hover,
+.gender:hover,
+.Hobby:hover,
+.education:hover,
+.pass:hover,
+.c-pass:hover,
+.profile:hover {
+    transform: scale(1.1);
+    z-index: 1.2;
+}
+
+.name,
+.mail,
+.P-number,
+.birth,
+.age,
+.radio,
+.checkbox,
+.option,
+.password,
+.c-password,
+.photo {
+    width: 18rem;
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.205);
+    color: white;
+    border: none;
+    border-bottom: 2px solid aqua;
+    font-size: 1.1rem;
+    font-style: italic;
+    transition: all;
+}
+
+
+.name:hover,
+
+.mail:hover,
+.code:hover,
+.P-number:hover,
+.birth:hover,
+.age:hover,
+.radio:hover,
+.checkbox:hover,
+.option:hover,
+.password:hover,
+.c-password:hover,
+.photo:hover {
+    background-color: white;
+    color: black;
+    border-bottom: 4px solid aqua;
+    /* transform: scaleX(1.1); */
+}
+
+
+/* Phone No */
+.Phone-no {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-number {
+    display: inline-block;
+}
+
+.code {
+    padding: 10px 0px 10px 0px;
+    background: rgba(128, 128, 128, 0.205);
+    color: white;
+    border: 1px solide aqua;
+    ;
+    border-bottom: 2px solid aqua;
+    font-size: 1rem;
+    transition: all;
+
+}
+
+.P-number {
+    width: 14.8rem;
+}
+
+/* Gender */
+.radio {
+    width: 19rem;
+    padding: 5px;
+}
+
+.sub-gender,
+.hobby {
+    margin-left: 20px;
+}
+
+
+/* Hobbies */
+.checkbox {
+    width: 28rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Submit */
+.submit {
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+}
+
+.submit-log-in {
+
+    margin: 30px;
+    /* background: rgba(128, 128, 128, 0.205); */
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid aqua;
+    border-radius: 30px;
+
+    width: 18rem;
+    height: 100%;
+    background: linear-gradient(black, aqua, black);
+    z-index: -1;
+    transform: .5s;
+
+}
+
+.submit-log-in:hover {
+    background: linear-gradient(aqua, black, aqua);
+    color: white;
+    top: 0;
+    transition: all;
+}
+
+
+hr {
+    width: 18rem;
+    margin: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+@media(min-width:300px) and (max-width: 480px)
+{
+   
+    .log-in,
+    .sign-in{
+        font-size: 3.5vh;
+    }
+        
+.username,
+.email,
+.Phone-no,
+.DOB,
+.Age,
+.gender,
+.Hobby,
+.education,
+.pass,
+.c-pass,
+.profile
+    {
+        font-size: 2vh;
+    }
+    
+.name,
+.mail,
+.P-number,
+.birth,
+.age,
+.radio,
+.checkbox,
+.option,
+.password,
+.c-password,
+.photo
+    
+    {
+    font-size: 1.9vh;
+    width: 30vh ;
+    
+    }
+    hr{
+        width: 20vh;
+    }
+    .para{
+        font-size:2.5vh;
+    }
+    .submit-log-in{
+        font-size: 3vh;
+        color:red;
+        width:auto;
+         padding: 1.9vh 3vh 1.9vh 3vh; 
+         padding: auto;
+    } 
+
+    .code{
+        width: 6vh;
+         padding: 1vh 0px 1vh 0px; 
+    }
+    .P-number{
+        width: 22vh;
+    }
+    .checkbox{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media(min-width:481px) and (max-width: 600px)
+{
+.checkbox
+{
+    width:30vh;
+    display: flex;
+    flex-direction: column;
+}
+}
