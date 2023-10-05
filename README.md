@@ -1,6 +1,6 @@
 #Login and Sign-Up System
 
-**Description **: <br>
+**Description** <br>
 This project is a simple login and sign-up system  <br> 
 It provides a user-friendly interface for users to create accounts, log in, and access [mention any unique features or functionality].
 
@@ -26,5 +26,10 @@ Push to the branch: git push origin feature-name <br>
 Create a pull request on GitHub. <br>
 
 Contact:<br>
-In case you have any question or want to get in touch.
+In case you have any questions or want to get in touch.<br>
+rimshmajeed2002@gmail.com <br>
+linkedin.com/in/rimsha-majeed-84a087202 <br>
+https://github.com/Rimsha002
+
+
 
