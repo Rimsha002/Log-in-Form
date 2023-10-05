@@ -43,7 +43,7 @@ body {
 }
 
 .log-in,
-.sign-in {
+.sign-up {
     font-size: 5.8vh;
     margin: 5vh;
     text-decoration: none;
@@ -52,13 +52,13 @@ body {
     display: flex;
     justify-content: center;
 }
-.sign-in {
+.sign-up {
     font-size: 4.3vh;
 
 }
 
 .log-in:hover,
-.sign-in:hover {
+.sign-up:hover {
     text-decoration: underline;
 }
 
